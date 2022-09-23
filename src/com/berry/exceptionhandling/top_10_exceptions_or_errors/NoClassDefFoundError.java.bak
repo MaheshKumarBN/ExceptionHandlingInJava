@@ -1,0 +1,11 @@
+package com.berry.exceptionhandling.top_10_exceptions_or_errors;
+
+public class NoClassDefFoundError {
+	public static void main(String[] args) {
+		T1 t = new T1();
+	}
+}
+
+class T1 {
+	
+}

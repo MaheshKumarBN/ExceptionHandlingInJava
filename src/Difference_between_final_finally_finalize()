@@ -1,0 +1,41 @@
+final:
+------
+
+Applicable for
+1. classes	--> we cannot create child class
+2. methods	--> we cannot override that method in child class
+3. variable	--> we cannot change its value
+
+
+finally:
+--------
+
+1. is a block associated with try-catch or try
+
+try {
+	risky code;
+} catch(Exception e) {
+	Handling code;
+} finally {
+	clean up or Resource deallocation code
+}
+
+2. this block will be executed even though Exception occurs or not occurs or handled or not handled
+
+
+finalize():
+-----------
+
+1. is associated with "Garbage Collection(GC)"
+2. This method is called by GC before destroying the object to perform clean up activities. Once it is performed, 
+   immediately GC will destroy the object.
+   
+
+finally vs finalize()
+---------------------
+
+finally: It is meant for try block opened resource clean up activities
+		 It is a keyword.
+		 
+finalize(): It is meant for object related clean up activities
+			It is a method

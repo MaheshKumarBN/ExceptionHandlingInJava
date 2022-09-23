@@ -1,0 +1,22 @@
+Keywords
+--------
+
+try 	--> To maintain risky code
+catch 	--> To maintain Exception Handling code
+finally	--> To maintain clean up or Resource deallocation code
+throw	--> To Handover our created Exception object to JVM manually
+throws	--> To deligate responsibility of Exception handling to the caller
+
+
+
+Compile time Errors
+-------------------
+
+try without catch or finally
+catch without try
+finally without try
+unreported exception ABC; must be caught or declared to be thrown
+Exception ABC is never thrown in body of corresponding try statement
+Exception ABC has already been caught
+Unreachable Statement
+Incompatible types: Class_name cannot be converted to Throwable
